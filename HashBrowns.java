@@ -5,7 +5,7 @@ import java.util.Iterator;
 public class HashBrowns {
 
 	public static void main(String[] args) {
-		HashSet<String> h = new HashSet<String>();
+		Set<String> h = new HashSet<String>();
 		h.add("kitty");
 		h.add("chickens");
 		h.add("doggie");
