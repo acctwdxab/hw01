@@ -30,8 +30,12 @@ public class HashBrowns {
 		}
 		
 		
-		String text = "hello world";
-		System.out.println("\nOriginal text: " + text.replaceAll("i"))
+		
+		Pattern pattern = Pattern.compile(".xx.");
+		Matcher matcher = pattern.matcher("MxxY");
+		System.out.println("Input String matches regex - "+matcher.matches());
+		// bad regular expression
+		pattern = Pattern.compile("*xx*");
 		
 
 	}
