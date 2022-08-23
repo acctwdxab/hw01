@@ -30,7 +30,8 @@ public class HashBrowns {
 		}
 		
 		
-		
+		String text = "hello world";
+		System.out.println("\nOriginal text: " + text.replaceAll("i"))
 		
 
 	}
